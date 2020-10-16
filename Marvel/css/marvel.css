@@ -1,0 +1,358 @@
+* appliquer les propriétés CSS sur tous les éléments de la page */ * {
+    /* faire en sorte que le padding et la bordure soient calculés à l'intérieur du conteneur. on change le mode de calcul à l'aide de box-sizing */
+    box-sizing: border-box;
+}
+
+
+/* Redéfinir la valeur de base du rem pour ne plus avoir de conversion à faire */
+
+html {
+    font-size: 62.5%;
+    /* ainsi 1rem = 10px au lieux de 16px*/
+}
+
+body {
+    /* surcharger les marges appliquées par défaut */
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url(../fonts/BEBAS___-webfont.woff);
+}
+
+
+/*En-tête*/
+
+header {
+    background-color: #ea222d;
+    height: 6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10rem;
+    color: white;
+}
+
+.titre {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+#marvel {
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Bebas;
+}
+
+#univers {
+    margin-top: 1.3rem;
+    font-size: 3rem;
+    font-family: Bebas;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 2rem;
+    padding-left: 4px;
+    margin-top: 2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+
+/*section personnages*/
+
+#decouvrez {
+    position: absolute;
+    bottom: 28rem;
+    right: 0;
+    left: 110px;
+    background-color: white;
+    color: #ea222d;
+    width: 89rem;
+    font-size: 52px;
+    box-shadow: black 4px 13px 26px;
+    text-transform: uppercase;
+}
+
+#devenez {
+    position: absolute;
+    bottom: 28.2rem;
+    right: 0;
+    left: 110px;
+    background-color: #ea222d;
+    color: white;
+    width: 84rem;
+    font-size: 27px;
+    box-shadow: black 4px 13px 26px;
+}
+
+#texture {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 100%), url("../img/texture.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.titresRouges {
+    color: #ea222d;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heros {
+    width: 20%;
+    text-align: center;
+}
+
+.logoHeros {
+    width: 50%;
+}
+
+.heros h4 {
+    font-size: 20px;
+}
+
+.heros p {
+    font-size: 15px;
+    margin-bottom: 21px;
+}
+
+.details {
+    font-size: 20px;
+    color: #ea222d;
+    padding: 5px 5px;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#blocHero {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*section cinéma*/
+
+#adaptation {
+    height: 50rem;
+    background-color: #ea222d;
+}
+#adaptation h5{
+    padding-top: 5rem;
+}
+figure{
+    margin: 0;
+    
+    overflow-y: hidden; 
+    display: flex;
+     align-items: center;
+    
+}
+#vidFond{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+.aVenir {
+    background: linear-gradient(#ea222d, hsla(0, 0%, 99%, 0));
+    margin-top: 0;
+    height: 39rem;
+}
+
+.titresBlancs {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 90px;
+}
+
+.blocVideo {
+    display: flex;
+    justify-content: center;
+}
+.herosText{
+    width: 81%;
+}
+
+.blocVideoPlusText {
+    display: flex;
+    width: 45%;
+}
+
+.carte iframe {
+    max-width: 46rem;
+    max-height: 39rem;
+}
+
+.textBloc {
+    max-width: 30rem;
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+    text-align: justify;
+}
+
+
+.aVenir h5 {
+    margin-top: 0;
+}
+
+tbody {
+    width: 100%;
+    background-color: white;
+}
+
+.gauche {
+    width: 30rem;
+}
+
+.trait hr {
+    border-color: #ea222d;
+    border-style: solid;
+}
+
+.droite {
+    width: 20rem;
+}
+
+#tableau {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: #ea222d 3px solid;
+    max-width: 34%;
+    margin: 0 auto;
+}
+
+
+/*section contacts*/
+
+form {
+    font-size: 20px;
+}
+
+.formBlock {
+    display: block;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 38rem;
+    height: 4rem;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid#ea222d;
+    border-radius: 10px;
+}
+
+.formaColumn {
+    margin-bottom: 18px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+#map {
+    display: flex;
+    margin: 0 auto;
+    width: 40rem;
+}
+
+#contacts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.carte {
+    max-width: 45%;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #ea222d;
+    height: 6rem;
+    padding-top: 6px;
+}
+
+footer p {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+#reseau li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.titre {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+
+/*Iron man volant*/
+
+@keyframes ironVole {
+    0% {
+        left: 6rem;
+    }
+    100% {
+        left: 220rem;
+    }
+}
+
+.iron {
+    position: absolute;
+    left: 6rem;
+    bottom: 9rem;
+    width: 0;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    animation: ironVole 2s;
+}
+
+.iron1 {
+    position: absolute;
+    left: 6rem;
+    bottom: 9rem;
+    width: 20rem;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}

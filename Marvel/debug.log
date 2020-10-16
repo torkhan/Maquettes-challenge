@@ -1,0 +1,14 @@
+[1008/212513.986:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[1008/212513.992:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[1008/212514.008:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[1008/212514.008:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[1009/065245.269:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[1009/065245.269:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[1009/065245.284:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[1009/065245.284:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[1010/111543.315:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[1010/111543.331:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[1010/111543.331:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[1014/232123.310:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[1014/232123.317:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[1014/232123.317:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
