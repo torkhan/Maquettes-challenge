@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: Kreon;
+}
+
+/* header */
+.container {
+  padding: 0.312rem 0.625rem;
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+header {
+  background-color: #212d39;
+  opacity: 80%;
+  border-bottom: 1rem solid #3e2c0a;
+}
+
+.navbar {
+  width: 100%;
+}
+.navbar .navbar-brand {
+  font-size: 3rem;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+  color: white;
+  font-size: 2rem;
+  padding: 0 5px;
+  height: 6.1rem;
+  padding-top: 2rem;
+}
+.navbar-collapse .navbar-nav .nav-link:hover {
+  background-color: #3e2c0a;
+}
+
+.card-body {
+  padding: 0;
+}
+
+/* Section titre */
+.titre {
+  background: url("../img/pexels-photo-132694.jpeg") center;
+  width: 100%;
+  height: 48rem;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.titre h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: bold;
+  background-color: #3e2c0a;
+  color: white;
+  position: absolute;
+  top: 37%;
+  left: 24%;
+  padding: 0 1rem;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .titre h1 {
+    font-size: 6rem;
+    top: 37%;
+    left: 34%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .titre h1 {
+    font-size: 8rem;
+    top: 32%;
+    left: 49%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .titre h1 {
+    font-size: 11rem;
+    top: 21%;
+    left: 39%;
+  }
+}
+.titre h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: white;
+  font-weight: bold;
+  color: #3e2c0a;
+  position: absolute;
+  top: 54%;
+  left: 11%;
+  padding: 0 1rem;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .titre h2 {
+    font-size: 2.5rem;
+    top: 55%;
+    left: 26%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .titre h2 {
+    font-size: 3.5rem;
+    top: 55%;
+    left: 41%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .titre h2 {
+    font-size: 5rem;
+    top: 53%;
+    left: 33%;
+  }
+}
+
+/* section quiSommesNous */
+.quiSommesNous {
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+}
+.quiSommesNous .row {
+  margin: 5% 0;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.quiSommesNous .row .card {
+  width: 100%;
+  border: none;
+}
+.quiSommesNous .row .card .card-body .card-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.quiSommesNous .row .card .card-body .card-text {
+  font-weight: bold;
+}
+
+.titresGras {
+  width: 56%;
+  text-align: center;
+}
+.titresGras h2,
+.titresGras h3 {
+  font-weight: bold;
+}
+.titresGras h2 {
+  font-size: 4rem;
+}
+.titresGras hr {
+  width: 12%;
+  border-bottom: 3px solid black;
+}
+
+/* Section Stats */
+.stats {
+  background: url("../img/kitchen-cake-backe-backing.jpg") center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.stats .row {
+  display: flex;
+  align-items: center;
+  min-height: 42rem;
+}
+.stats .row .card {
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  text-shadow: black 0.1rem 0.1rem 0.2rem;
+}
+.stats .row .card .card-body h5 {
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+.stats .row .card .card-body p {
+  font-size: 1.8rem;
+}
+
+/* Section carte */
+.carte {
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+}
+.carte .row {
+  margin: 5% 0;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.carte .row .card {
+  width: 100%;
+  border: none;
+}
+.carte .row .card figure img {
+  border: #dadada 7px solid;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.carte .row .card .card-body .card-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.carte .row .card .card-body .card-text {
+  font-weight: bold;
+}
+.carte .row .card .card-body ul li {
+  list-style: none;
+  font-weight: bold;
+}
+
+/* Section menus */
+.menus {
+  background: url("../img/pexels-photo-24553.jpg") center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.blanc {
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #3e2c0a;
+  opacity: 80%;
+  color: white;
+}
+
+.elements {
+  display: flex;
+  padding-top: 1rem;
+}
+.elements p {
+  width: 54%;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+}
+.social ul {
+  margin-left: auto;
+}
+.social ul li {
+  display: inline-block;
+}
+.social ul li a {
+  color: white;
+  padding-left: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */

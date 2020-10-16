@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="heart" unicode="&#xe800;" d="M500-79q-14 0-25 10l-348 336q-5 5-15 15t-31 37-38 54-30 67-13 77q0 123 71 192t196 70q34 0 70-12t67-33 54-38 42-38q20 20 42 38t54 38 67 33 70 12q125 0 196-70t71-192q0-123-128-251l-347-335q-10-10-25-10z" horiz-adv-x="1000" />
+
+<glyph glyph-name="group" unicode="&#xe801;" d="M860 533q0-108-77-184t-184-76-184 76-76 184 76 183 184 77 184-77 77-183z m286-183q0-54-38-92t-93-38-92 38-38 92 38 92 92 38 93-38 38-92z m-131-161q80 0 131-34t52-79q0-22-53-40t-130-17q-42 0-82 6 0-2 0-7t1-7q0-41-96-72t-239-32q-150 0-242 32t-92 72q0 3 1 8t0 7q-50-7-83-7-82 0-132 17t-51 40q0 45 50 79t133 34q98 0 151-50 99 81 265 81t265-81q52 50 151 50z m-702 161q0-54-38-92t-92-38-93 38-37 92 37 92 93 38q53 0 91-38t39-92z" horiz-adv-x="1198" />
+
+<glyph glyph-name="cafe" unicode="&#xe80c;" d="M150 700c-28 0-50-22-50-50l0-450c0-28 22-50 50-50l550 0c28 0 50 22 50 50l0 50 25 0c25 0 25 25 25 25l0 25 50 0c50 0 100 50 100 100l0 150c0 25-25 50-50 50l-150 0 0 50c0 28-22 50-50 50z m600-150l125 0c25 0 25-25 25-25l0-125c0-25-25-50-50-50l-100 0z m-750-450l75-75c12-12 25-25 50-25 208 0 600 0 600 0 25 0 38 13 50 25l75 75z" horiz-adv-x="950" />
+
+<glyph glyph-name="food" unicode="&#xf0f5;" d="M357 814v-357q0-34-20-62t-51-39v-435q0-29-21-50t-51-21h-71q-29 0-50 21t-22 50v435q-31 11-51 39t-20 62v357q0 15 11 25t25 11 25-11 10-25v-232q0-14 11-25t25-11 25 11 11 25v232q0 15 11 25t25 11 25-11 10-25v-232q0-14 11-25t25-11 25 11 11 25v232q0 15 10 25t25 11 26-11 10-25z m429 0v-893q0-29-21-50t-51-21h-71q-29 0-50 21t-22 50v286h-125q-7 0-12 5t-5 13v446q0 74 52 127t126 52h143q15 0 25-11t11-25z" horiz-adv-x="785.7" />
+</font>
+</defs>
+</svg>

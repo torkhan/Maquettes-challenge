@@ -1,0 +1,30 @@
+@mixin container {
+    padding: 0.312rem 0.625rem;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+//media queries
+@mixin sm {
+    @media screen and (min-width: #{$sm-breakpoint}) and (max-width:#{$md-breakpoint }) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media screen and (min-width: #{$md-breakpoint }) and (max-width:#{$lg-breakpoint }) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media screen and (min-width: #{$lg-breakpoint }) and (max-width:#{$xl-breakpoint }) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media screen and (min-width: #{$xl-breakpoint}) {
+        @content;
+    }
+}

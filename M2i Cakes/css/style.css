@@ -1,0 +1,426 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: Kreon;
+}
+
+/* header */
+.container {
+  padding: 0.312rem 0.625rem;
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+header {
+  background-color: #212d39;
+  opacity: 80%;
+  border-bottom: 1rem solid #3e2c0a;
+}
+
+.navbar {
+  width: 100%;
+}
+.navbar .navbar-brand {
+  font-size: 3rem;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+  color: white;
+  font-size: 2rem;
+  padding: 0 5px;
+  height: 6.1rem;
+  padding-top: 2rem;
+}
+.navbar-collapse .navbar-nav .nav-link:hover {
+  background-color: #3e2c0a;
+}
+
+.card-body {
+  padding: 0;
+}
+
+/* Section titre */
+.titre {
+  background: url("../img/pexels-photo-132694.jpeg") center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 70rem;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.titre h1 {
+  text-align: center;
+  font-size: 5.5rem;
+  font-weight: bold;
+  background-color: #3e2c0a;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  padding: 0 1rem;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .titre h1 {
+    font-size: 6rem;
+    top: 35%;
+    left: 44%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .titre h1 {
+    font-size: 7rem;
+    top: 28%;
+    left: 35%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .titre h1 {
+    font-size: 10rem;
+    top: 28%;
+    left: 45%;
+  }
+}
+.titre h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: white;
+  font-weight: bold;
+  color: #3e2c0a;
+  position: absolute;
+  top: 50%;
+  left: 11%;
+  padding: 0 1rem;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .titre h2 {
+    font-size: 2.5rem;
+    top: 48%;
+    left: 37%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .titre h2 {
+    font-size: 3.5rem;
+    top: 45%;
+    left: 26%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .titre h2 {
+    font-size: 5rem;
+    top: 50%;
+    left: 37%;
+  }
+}
+
+/* section quiSommesNous */
+.quiSommesNous {
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+}
+.quiSommesNous .row {
+  margin: 5% 0;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.quiSommesNous .row .card {
+  width: 100%;
+  border: none;
+}
+.quiSommesNous .row .card .card-body .card-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.quiSommesNous .row .card .card-body .card-text {
+  font-weight: bold;
+}
+
+.titresGras {
+  width: 56%;
+  text-align: center;
+}
+.titresGras h2,
+.titresGras h3 {
+  font-weight: bold;
+}
+.titresGras h2 {
+  font-size: 4rem;
+}
+.titresGras hr {
+  width: 12%;
+  border-bottom: 3px solid black;
+}
+
+/* Section Stats */
+.stats {
+  background: url("../img/kitchen-cake-backe-backing.jpg") bottom;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.stats .row {
+  display: flex;
+  align-items: center;
+  min-height: 42rem;
+}
+.stats .row .card {
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  text-shadow: black 0.1rem 0.1rem 0.2rem;
+}
+.stats .row .card .card-body h5 {
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+.stats .row .card .card-body p {
+  font-size: 1.8rem;
+}
+
+/* Section carte */
+.carte {
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+}
+.carte .row {
+  margin: 5% 0;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.carte .row .card {
+  width: 100%;
+  border: none;
+}
+.carte .row .card figure img {
+  width: 100%;
+  border: #dadada 7px solid;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.carte .row .card .card-body .card-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.carte .row .card .card-body .card-text {
+  font-weight: bold;
+}
+.carte .row .card .card-body ul li {
+  list-style: none;
+  font-weight: bold;
+}
+
+/* Section menus */
+.menus {
+  background: url("../img/pexels-photo-24553.jpg") repeat-y;
+  width: 100%;
+  min-height: 42rem;
+  background-size: cover;
+  padding-top: 4rem;
+}
+.menus .container .titresGras h2,
+.menus .container .titresGras h3 {
+  color: white;
+  text-shadow: black 10px 10px 20px;
+}
+.menus .container h5 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: black 10px 10px 20px;
+}
+.menus .container p {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: black 10px 10px 20px;
+  text-align: center;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .menus .container .text-center {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menus .container .text-center {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.menus .container .text-center .blocCheese .blocImg {
+  position: relative;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .menus .container .text-center .blocCheese .blocImg {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .menus .container .text-center .blocCheese .blocImg {
+    height: 100%;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menus .container .text-center .blocCheese .blocImg {
+    height: 100%;
+    padding: 0;
+  }
+}
+.menus .container .text-center .blocCheese .blocImg .prix {
+  font-size: 27px;
+  padding: 10px 0px;
+  color: white;
+  background-color: #3e2c0a;
+  border: white 5px solid;
+  border-radius: 39px;
+  position: absolute;
+  top: 0px;
+  left: 17%;
+  text-shadow: none;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .menus .container .text-center .blocCheese .blocImg .prix {
+    top: -19px;
+    left: -11%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menus .container .text-center .blocCheese .blocImg .prix {
+    top: -9%;
+    left: 5%;
+  }
+}
+.menus .container .text-center .blocCheese .blocImg #prixBleu {
+  background-color: #10e7ee;
+}
+.menus .container .text-center .blocCheese .blocImg .img {
+  border: white 5px solid;
+  border-radius: 5px;
+  padding: 0;
+  margin: 20px 0;
+  width: 60%;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .menus .container .text-center .blocCheese .blocImg .img {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .menus .container .text-center .blocCheese .blocImg .img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menus .container .text-center .blocCheese .blocImg .img {
+    height: 97%;
+    width: 76%;
+    padding-right: 0;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .menus .container .text-center .blocCheese {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .menus .container .text-center .blocCheese {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menus .container .text-center .blocCheese {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .menus .container .text-center .blocCheese .textMenu {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .menus .container .text-center .blocCheese .textMenu {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menus .container .text-center .blocCheese .textMenu {
+    text-align: left;
+    height: 100%;
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .menus .container .text-center .blocCheese .textMenu p {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .menus .container .text-center .blocCheese .textMenu p {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menus .container .text-center .blocCheese .textMenu p {
+    text-align: left;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #3e2c0a;
+  opacity: 80%;
+  color: white;
+}
+
+.elements {
+  display: flex;
+  padding-top: 1rem;
+}
+.elements p {
+  width: 54%;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+}
+.social ul {
+  margin-left: auto;
+}
+.social ul li {
+  display: inline-block;
+}
+.social ul li a {
+  color: white;
+  padding-left: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

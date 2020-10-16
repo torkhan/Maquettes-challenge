@@ -1,0 +1,9 @@
+Police de caractères :
+	Kreon (disponible sur Google Fonts)
+    
+Couleurs :
+	Couleur par défaut : #333
+	Couleur de fond navbar : #212d39 avec une opacité de 80%
+	Couleur bordure navbar : #3e2c0a
+	Couleur fond titre "M2i Cakes" : #3e2c0a
+	Couleur texte "Les meilleurs gâteaux près de chez vous" : #3e2c0a
